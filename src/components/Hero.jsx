@@ -113,7 +113,7 @@ const Hero = () => {
         <div ref={containerRef} className='relative hidden lg:flex lg:items-center lg:justify-center bg-zinc-300 rounded-3xl overflow-hidden'>
 
             <div className='w-full h-full flex- items-center justify-center text-zinc-500'>
-                Hero Image Place Holder
+                Image Holder
             </div>
 
             <div ref={shopButtonRef} className='absolute bottom-80 right-45 size-20 flex items-center justify-center text-center bg-zinc-800/80 backdrop-blur-md text-zinc-50 uppercase rounded-full border border-zinc-100'>
