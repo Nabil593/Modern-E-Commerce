@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import TagLine from './components/TagLine';
 import ShopSection from './components/ShopSection';
+import Mission from './components/Mission';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <TagLine />
       <ShopSection />
+      <Mission />
     </div>
   )
 }

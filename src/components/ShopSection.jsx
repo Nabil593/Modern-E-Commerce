@@ -6,14 +6,14 @@ const ShopSection = () => {
     filterButtonsData.find((b) => b.isActive)?.name || "All"
   );
 
-  // 🔢 AUTO COUNT (category wise)
+  // AUTO COUNT (category wise)
   const counts = productData.reduce((acc, product) => {
     acc[product.category] = (acc[product.category] || 0) + 1;
     acc.All = (acc.All || 0) + 1;
     return acc;
   }, {});
 
-  // 🧠 FILTER LOGIC
+  // FILTER LOGIC
   const filteredProducts =
     activeFilter === "All"
       ? productData
