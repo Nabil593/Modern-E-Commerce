@@ -5,6 +5,7 @@ import TagLine from './components/TagLine';
 import ShopSection from './components/ShopSection';
 import Mission from './components/Mission';
 import DesignCTA from './components/DesignCTA';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <ShopSection />
       <Mission />
       <DesignCTA />
+      <Footer />
     </div>
   )
 }
