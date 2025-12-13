@@ -110,11 +110,11 @@ const Hero = () => {
 
 
         {/* RIGHT COLS */}
-        <div ref={containerRef} className='relative hidden lg:flex lg:items-center lg:justify-center bg-zinc-300 rounded-3xl overflow-hidden'>
+        <div ref={containerRef} className='relative hidden lg:inline-flex bg-[url(https://plus.unsplash.com/premium_photo-1677838847804-4054143fb91a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center  rounded-3xl overflow-hidden'>
 
-            <div className='w-full h-full flex- items-center justify-center text-zinc-500'>
-                Image Holder
-            </div>
+            {/* <div className='w-full h-full flex- items-center justify-center text-zinc-500'>
+                
+            </div> */}
 
             <div ref={shopButtonRef} className='absolute bottom-80 right-45 size-20 flex items-center justify-center text-center bg-zinc-800/80 backdrop-blur-md text-zinc-50 uppercase rounded-full border border-zinc-100'>
             SHOP NOW
