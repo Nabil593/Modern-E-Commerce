@@ -6,10 +6,20 @@ const ShopSection = () => {
     filterButtonsData.find((b) => b.isActive)?.name || "All"
   );
 
+  // 🔢 AUTO COUNT (category wise)
+  const counts = productData.reduce((acc, product) => {
+    acc[product.category] = (acc[product.category] || 0) + 1;
+    acc.All = (acc.All || 0) + 1;
+    return acc;
+  }, {});
+
+  // 🧠 FILTER LOGIC
   const filteredProducts =
     activeFilter === "All"
       ? productData
-      : productData.filter((p) => p.category === activeFilter);
+      : productData.filter(
+          (product) => product.category === activeFilter
+        );
 
   return (
     <section className="bg-white py-20 px-6 sm:px-10">
@@ -24,6 +34,7 @@ const ShopSection = () => {
           <div className="flex gap-3 overflow-x-auto pb-2">
             {filterButtonsData.map((btn) => {
               const isActive = activeFilter === btn.name;
+
               return (
                 <button
                   key={btn.name}
@@ -37,11 +48,11 @@ const ShopSection = () => {
                 >
                   {btn.name}
                   <sub
-                    className={`text-xs ml-0.5 transition-colors ${
+                    className={`text-xs ml-0.5 ${
                       isActive ? "text-zinc-200" : "text-zinc-500"
                     }`}
                   >
-                    {btn.count}
+                    {counts[btn.name] || 0}
                   </sub>
                 </button>
               );
@@ -51,6 +62,13 @@ const ShopSection = () => {
 
         {/* PRODUCT GRID */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {/* EMPTY STATE */}
+          {filteredProducts.length === 0 && (
+            <p className="col-span-full text-center text-zinc-500 text-lg">
+              No products found in this category
+            </p>
+          )}
+
           {filteredProducts.map((product) => (
             <div
               key={product.id || product.name}
@@ -87,7 +105,9 @@ const ShopSection = () => {
                 <p className="text-2xl anton text-zinc-900">
                   {product.name}
                 </p>
-                <p className="text-lg text-zinc-600">{product.price}</p>
+                <p className="text-lg text-zinc-600">
+                  {product.price}
+                </p>
               </div>
             </div>
           ))}
@@ -98,3 +118,4 @@ const ShopSection = () => {
 };
 
 export default ShopSection;
+
