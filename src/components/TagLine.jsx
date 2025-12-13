@@ -3,7 +3,7 @@ import { BsAsterisk } from 'react-icons/bs';
 
 const TagLine = () => {
   return (
-    <div className='bg-white py-40'>
+    <div className='bg-white py-25 mt-25'>
         <div className='relative max-w-6xl mx-auto px-4 text-center'>
         <div className='absolute hidden md:block size-20 bg-zinc-300 rounded-full left-80 -top-10 overflow-clip'>
             <div className={`size-full bg-[url(/images/port-3.png)] bg-cover bg-top`}>
