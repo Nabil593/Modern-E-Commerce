@@ -29,7 +29,7 @@ const productData = [
     tag: "NEW ARRIVAL",
     category: "New",
     imgHeight: "aspect-[3/4]",
-    bgUrl: "bg-[url(/images/art-2.png)]",
+    bgUrl: "bg-[url(/images/art-2.jpg)]",
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ const productData = [
     tag: "GET OFF 20%",
     category: "Flash",
     imgHeight: "aspect-[3/4]",
-    bgUrl: "bg-[url(/images/art-1.png)]",
+    bgUrl: "bg-[url(/images/art-1.jpg)]",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ const productData = [
     tag: null,
     category: "Summer",
     imgHeight: "aspect-[3/4]",
-    bgUrl: "bg-[url(/images/art-3.png)]",
+    bgUrl: "bg-[url(/images/art-3.jpg)]",
   },
   {
     id: 4,
@@ -56,7 +56,7 @@ const productData = [
     tag: null,
     category: "Best",
     imgHeight: "aspect-[3/4]",
-    bgUrl: "bg-[url(/images/art-4.png)]",
+    bgUrl: "bg-[url(/images/art-4.jpg)]",
   },
   {
     id: 5,
@@ -65,7 +65,7 @@ const productData = [
     tag: null,
     category: "Best",
     imgHeight: "aspect-[3/4]",
-    bgUrl: "bg-[url(/images/art-6.png)]",
+    bgUrl: "bg-[url(/images/art-6.jpg)]",
   },
   {
     id: 6,
@@ -74,7 +74,7 @@ const productData = [
     tag: null,
     category: "New",
     imgHeight: "aspect-[3/4]",
-    bgUrl: "bg-[url(/images/art-5.png)]",
+    bgUrl: "bg-[url(/images/art-5.jpg)]",
   },
 ];
 

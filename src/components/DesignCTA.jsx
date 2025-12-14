@@ -32,7 +32,7 @@ const DesignCTA = () => {
         try {
             vid.currentTime = 0
             vid.muted = true
-            await vid.BiPlay()
+            await vid.play()
         } catch (err) {
             setIsPlaying(false)
             console.warn("Video play failed: ", err);
@@ -53,7 +53,7 @@ const DesignCTA = () => {
 
             {/* VIDEO */}
             <video ref={videoRef} className={`size-fit saturate-120 object-cover w-full h-full ${isPlaying ? "pointer-events-none" : ""}`}>
-                <source src="/videos/wedding.mp4" />
+                <source src="/videos/watch.mp4" />
                 Your browser does not support the video tag.
             </video>
 

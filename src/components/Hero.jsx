@@ -110,7 +110,7 @@ const Hero = () => {
 
 
         {/* RIGHT COLS */}
-        <div ref={containerRef} className='relative hidden lg:inline-flex bg-[url(https://plus.unsplash.com/premium_photo-1677838847804-4054143fb91a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center  rounded-3xl overflow-hidden'>
+        <div ref={containerRef} className='relative hidden lg:inline-flex bg-[url(https://images.unsplash.com/photo-1636551462973-3d59d4405012?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center  rounded-3xl overflow-hidden'>
 
             {/* <div className='w-full h-full flex- items-center justify-center text-zinc-500'>
                 
@@ -133,7 +133,8 @@ const Hero = () => {
 
                 {/* 2 */}
 
-                <button className='border border-zinc-50 group backdrop-blur-xs cursor-pointer flex items-center justify-center gap-10 text-zinc-900 text-xs uppercase pl-4 pr-2 py-1 rounded-full hover:bg-zinc-900 hover:text-zinc-50 transition-all duration-200 ease-in font-semibold '>
+                <button className='border border-zinc-50 group backdrop-blur-xs cursor-pointer flex items-center justify-center gap-10 text-white
+                 text-xs uppercase pl-4 pr-2 py-1 rounded-full hover:bg-zinc-900 hover:text-zinc-50 transition-all duration-200 ease-in font-semibold '>
                 Contact US
                 <span className='size-8 bg-zinc-800 group-hover:bg-zinc-100 rounded-full flex items-center justify-center'>
                     <FiMail size={16} className='text-zinc-50 group-hover:text-black'/>

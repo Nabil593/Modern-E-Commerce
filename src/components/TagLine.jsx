@@ -23,13 +23,13 @@ const TagLine = () => {
         {/* image */}
         <div className='absolute overflow-clip size-20 hidden md:block bg-zinc-300 rounded-full left-70 -bottom-4'>
 
-            <div className={`size-full bg-[url(/images/port-5.jpg)] bg-cover bg-top`}>
+            <div className={`size-full bg-[url(/images/port-5.png)] bg-cover bg-top`}>
             </div>
         </div>
 
         <div className='absolute overflow-clip size-20 hidden md:block bg-zinc-300 rounded-full right-70 -bottom-4'>
 
-            <div className={`size-full bg-[url(/images/port-4.jpg)] bg-cover bg-top`}>
+            <div className={`size-full bg-[url(/images/port-4.png)] bg-cover bg-top`}>
             </div>
         </div>
 
