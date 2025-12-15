@@ -55,7 +55,7 @@ const Mission = () => {
                     MISSION
                   </h3>
                   <p className='text-zinc-200'>
-                      Were in a mission to empower people with the clothing they need to feel comfortable and stylish
+                      Were in a mission to empower people with the technology they need to feel comfortable and stylish
                     </p>
                 </div>
               </div>

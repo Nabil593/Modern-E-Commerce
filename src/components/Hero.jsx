@@ -92,7 +92,7 @@ const Hero = () => {
                 <div className='relative h-[230px] bg-zinc-300 rounded-3xl p-3 overflow-clip'>
                     <div className='absolute inset-0 bg-[url(/images/port-1.png)] bg-cover bg-top'>
                     <span className='absolute bottom-3 left-4 bg-zinc-900/70 backdrop-blur-sm text-white font-semibold tracking-wide z-20 px-2 py-1 rounded-full'>
-                        #RIPSTOP
+                        #HERO
                     </span>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ const Hero = () => {
                 <div className='relative h-[230px] bg-[#586D64] rounded-3xl  p-3 overflow-clip'>
                     <div className='absolute inset-0 bg-[url(/images/port-2.png)] bg-cover bg-top'>
                     <span className='absolute bottom-3 left-4 bg-zinc-900/70 backdrop-blur-sm text-white font-semibold tracking-wide  z-20 px-2 py-2 rounded-full'>
-                        #INSULATED
+                        #NEW
                     </span>
                     </div>
                 </div>

@@ -1,10 +1,10 @@
 /* ================= NAV LINKS ================= */
 
 const navLinksData = [
-  { isActive: true, name: "WOMENSWEAR" },
-  { isActive: false, name: "MENSWEAR" },
-  { isActive: false, name: "KIDS" },
-  { isActive: false, name: "SALE" },
+  { isActive: true, name: "HOME" },
+  { isActive: false, name: "SHOP" },
+  { isActive: false, name: "ABOUT" },
+  { isActive: false, name: "CONTACT" },
   { isActive: false, name: "DISCOVER" },
 ];
 
@@ -24,7 +24,7 @@ const filterButtonsData = [
 const productData = [
   {
     id: 1,
-    name: "CORD SHIRT",
+    name: "SMART WATCH",
     price: "$100",
     tag: "NEW ARRIVAL",
     category: "New",
@@ -33,7 +33,7 @@ const productData = [
   },
   {
     id: 2,
-    name: "CPO SHIRT",
+    name: "CPO HEAD",
     price: "$90",
     tag: "GET OFF 20%",
     category: "Flash",
@@ -42,7 +42,7 @@ const productData = [
   },
   {
     id: 3,
-    name: "SUMMER SWEATER",
+    name: "SONY",
     price: "$50",
     tag: null,
     category: "Summer",
@@ -51,7 +51,7 @@ const productData = [
   },
   {
     id: 4,
-    name: "T-SHIRTS",
+    name: "BLACK SOUND",
     price: "$60",
     tag: null,
     category: "Best",
@@ -60,7 +60,7 @@ const productData = [
   },
   {
     id: 5,
-    name: "CASUAL TROUSERS",
+    name: "CASUAL WATCH",
     price: "$120",
     tag: null,
     category: "Best",
@@ -69,7 +69,7 @@ const productData = [
   },
   {
     id: 6,
-    name: "CARDIGAN",
+    name: "ROBLOX",
     price: "$150",
     tag: null,
     category: "New",
@@ -82,8 +82,8 @@ const productData = [
 
 const productLinksData = [
   {
-    title: "Product",
-    links: ["Womenswear", "Menswear", "Kids", "Sale", "Discover"],
+    title: "MENU",
+    links: ["Home", "Shop", "About", "Contact", "Discover"],
   },
 ];
 

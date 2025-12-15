@@ -25,7 +25,7 @@ const Header = () => {
 
           {/* LOGO */}
           <div className='text-3xl anton text-zinc-900'>
-            PUREMALL
+            TECHNUX
           </div>
 
           {/* NAVIGATION - Desktop */}

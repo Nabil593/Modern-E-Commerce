@@ -11,13 +11,13 @@ const TagLine = () => {
         </div>
 
         <div className='text-3xl lg:text-5xl font-extrabold leading-tight text-zinc-900 tracking-tight'>
-            Puremall is pioneering for Eleveted Everyday <br/>
-            Life, Styles change
+            At Technux, we reimagine everyday life. <br/>
+            Our styles evolve
             <div className='border w-fit inline-flex items-center border-zinc-600 rounded-full pr-4 pl-2
              pb-1'>
                 <BsAsterisk size={45} className='inline-block'/>With season
             </div>
-            <div>, united <br/> by the lebarating essence of travel-inspired lightheartedness</div>
+            <div>guided by the liberating essence of travel and lighthearted living.</div>
         </div>
 
         {/* image */}

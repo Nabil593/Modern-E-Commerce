@@ -12,7 +12,7 @@ const Footer = () => {
         {/* COL01: LOGO & TAGLINE */}
         <div className=''>
             <div className='text-4xl text-zinc-100 anton flex flex-row items-center gap-2 mb-4'>
-                <BiShoppingBag size={40} className='text-zinc-50 inline-flex'/> PUREMALL
+                <BiShoppingBag size={40} className='text-zinc-50 inline-flex'/> TECHNUX
             </div>
             <p className='text-sm text-zinc-400'>FOR EVERYONE BUT NOT ANYONE</p>
         </div>
